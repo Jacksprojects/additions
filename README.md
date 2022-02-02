@@ -1,6 +1,6 @@
 # Django Project Config
 
-This empty django project is an example of how to set up some common code quality tools using `pre-commit`:
+This empty django project is an example of how to set up some common code quality tools using `pre-commit` and `pre-commit-cli`:
 
 * `black`
 * `curlylint`
