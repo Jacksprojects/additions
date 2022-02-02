@@ -1,8 +1,23 @@
-* Set up `watchman` - DONE
-* Set up `django-browser-reload` - DONE
-* Set up `rich` logging - DONE
-* Set up `editorConfig` - DONE
+# Django Project Config
 
+* Set up `black`
+* Set up `curlylint`
+* Set up `django-browser-reload`
+* Set up `django-upgrade`
+* Set up `djhtml`
+* Set up `editorConfig`
+* Set up `flake8` with additional dependencies
+* Set up `isort`
+* Set up `pre-commit` and `prec-commit-cli`
+* Set up `pyupgrade`
+* Set up `reorder-python-imports`
+* Set up `rich` logging
+* Set up `watchman` and `pywatchman`
+
+
+## Example logging config for `rich` in `settings.py`
+
+```
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -54,3 +69,4 @@ LOGGING = {
         },
     }
 }
+```
